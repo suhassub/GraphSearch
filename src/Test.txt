@@ -1,0 +1,214 @@
+16
+DFS
+A
+B C D
+E F G H I
+7
+A H 12 0
+A G 10 0
+A E 3 3 2-4 1-5 9-10
+E H 2 1 1-2
+H D 5 2 5-6 2-3
+G D 4 0
+H C 6 1 10-14
+3
+
+BFS
+India
+USA Canada
+Pakistan London Dubai Singapore Korea
+15
+India Pakistan 3 0
+Pakistan London 7 3 2-4 1-5 9-10
+India London 8 1 1-2
+Dubai London 5 2 5-6 2-3
+India Dubai 1 1 10-14
+Pakistan Dubai 1 0
+London USA 11 0
+Dubai USA 16 0
+Pakistan Singapore 8 3 2-4 1-5 9-10
+India Singapore 7 1 1-2
+Singapore Korea 3 0
+Singapore USA 16 0
+Korea USA 16 0
+USA Canada 1 0
+London Canada 12 0
+0
+
+BFS
+P
+Q R
+L M N O
+5
+P L 10 0
+P N 5 2 3-4 6-9
+M Q 8 1 4-6
+O R 3 0
+N M 5 1 1-2
+5
+
+BFS
+A
+I
+C D B E F G H
+5
+A B 12 0
+A E 3 3 2-4 1-5 9-10
+E H 2 1 1-2
+H I 5 2 5-6 2-3
+I C 6 1 10-14
+3
+
+DFS
+P
+Q R
+L M N O
+5
+P L 10 0
+P N 5 2 3-4 6-9
+M Q 8 1 4-6
+O R 3 0
+N M 5 1 1-2
+5
+
+DFS
+AA
+BA
+CA DA
+3
+AA BA 10 1 1-2
+AA CA 2 2 3-4 5-6
+CA BA 4 0
+0
+
+DFS
+AB
+GB
+CB DB FB DB BB EB
+6
+AB BB 1 0
+AB CB 1 0
+AB DB 1 0
+BB EB 1 0
+BB FB 1 0
+FB GB 1 0
+0
+
+DFS
+E
+H
+A D B C
+9
+A E 1 0
+A B 1 0
+D C 1 0
+A C 1 0
+A D 1 0
+B D 1 0
+B C 1 0
+B H 1 0
+D E 1 0
+0
+
+BFS
+G
+A
+H D C E B
+9
+A B 1 0
+G D 2 0
+H D 1 0
+C H 1 0
+C A 9 0
+D E 10 0
+E G 2 0
+D C 10 0
+B E 2 0
+0
+
+UCS
+AA
+BA
+CA DA
+3
+AA BA 10 1 1-2
+AA CA 2 2 3-4 5-6
+CA BA 4 0
+0
+
+UCS
+AA
+BA
+CA DA
+3
+AA BA 10 1 1-2
+AA CA 2 2 3-4 5-6
+CA BA 4 1 2-3
+0
+
+UCS
+S
+G
+A B
+4
+S A 2 1 1-2
+S B 1 2 3-4 5-6
+A B 2 0
+B G 1 0
+0
+
+BFS
+A
+O
+B C H G M N
+10
+A B 2 0
+A C 2 0
+C H 6 0
+C G 2 0
+G H 5 0
+H A 9 0
+H M 1 0
+H N 2 0
+M O 7 0
+N O 4 0
+0
+
+DFS
+A
+O
+B C H G M N
+10
+A B 2 0
+A C 2 0
+C H 6 0
+C G 2 0
+G H 5 0
+H A 9 0
+H M 1 0
+H N 2 0
+M O 7 0
+N O 4 0
+0
+
+UCS
+A
+C D
+B
+4
+A B 5 0
+A D 11 0
+B D 2 1 5-7
+B C 5 0
+0
+
+UCS
+S
+G
+A B
+4
+S A 2 0
+S B 7 0
+A B 1 0
+B G 1 1 1-2
+0
